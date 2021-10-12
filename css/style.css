@@ -14,15 +14,14 @@ header{
 
 header img{
     height: 80px;
-    vertical-align: middle;
     padding: 10px;
+     vertical-align: middle; /*niente ho provato di tutto \01F622  */
 }
 
 
-header h1{
-    display: inline-block;
+ h1{
+    display: inline;
     font-size: 40px;
-    margin-top: 10px;
 }
 
 /* inizio css main */
@@ -46,12 +45,12 @@ main{
 }
 
 #task-button{
-    /* margin-left: 7%; */
     background-color:rgb(88, 191, 255);
     border-color: rgb(88, 191, 255);
     padding: 10px;
     color: white;
     border-radius: 5px;
+    margin-top: 10px;
 }
 
 #section-button{
@@ -70,15 +69,13 @@ main{
     margin-top: 30px;
 }
 
-ul{
-    margin-left: px;
-
-}
 
 .list-name{
     list-style: none;
     font-weight: bolder;
-    padding-left: 15px;
+    padding-left: 10px;
+    padding-bottom: 5px;
+
 }
 
 .list-item{
