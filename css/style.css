@@ -9,15 +9,57 @@
 
 header{
     height: 90px;
+    background-color: white;
 }
 
 header img{
     height: 80px;
     vertical-align: middle;
+    padding: 10px;
 }
 
 
 header h1{
     display: inline-block;
     font-size: 40px;
+    margin-top: 10px;
 }
+
+/* inizio css main */
+
+body{
+    background-color: rgb(241, 241, 241);
+}
+
+main{
+    margin-top: 30px;
+}
+
+.bigcontainer{
+    background-color: white;
+    width: 70%;
+    margin: 0 auto;
+}
+
+.button-container{
+    padding: 15px;
+}
+
+#task-button{
+    margin-left: 7%;
+    background-color:rgb(88, 191, 255);
+    border-color: rgb(88, 191, 255);
+    padding: 10px;
+    color: white;
+    border-radius: 5px;
+}
+
+#section-button{
+    background-color: white;
+    border-color:  rgb(219, 219, 219);
+    padding: 10px;
+    color: grey;
+    border-radius: 5px;
+}
+
+/* end buttons */
