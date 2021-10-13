@@ -15,13 +15,14 @@ header{
 header img{
     height: 80px;
     padding: 10px;
-     vertical-align: middle; /*niente ho provato di tutto \01F622  */
+     vertical-align: middle; /
 }
 
 
  h1{
     display: inline;
     font-size: 40px;
+    vertical-align: middle;
 }
 
 /* inizio css main */
